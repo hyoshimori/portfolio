@@ -206,3 +206,24 @@ img.list__app__photo:hover + .list__app__hover{
     grid-gap: 200px;
   }
 }
+
+@media (max-width: 480px) {
+  .list__app, .list__app__photo{
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    max-height: 300px;
+  }
+  .list__apps{
+    grid-gap: 230px;
+  }
+}
+
+@media (max-width: 320px) {
+  .list__app, .list__app__photo{
+    width: 270px;
+    max-width: 270px;
+    height: 270px;
+    max-height: 270px;
+  }
+}
