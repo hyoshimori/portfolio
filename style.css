@@ -1,0 +1,208 @@
+/* color link */
+/* https://coolors.co/a31621-bfdbf7-053c5e-1f7a8c-db222a */
+
+/* // Config // */
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  padding: 5% 5% 0 5%;
+}
+
+h1, h2, h3, h4, a, p, span{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2, p{
+  font-size: 2rem;
+}
+
+.list__app__hover p{
+  font-size: 1.5rem;
+}
+
+span, div{
+  font-size: 1.8rem;
+}
+
+.copy__right{
+  font-size: 1.5rem;
+}
+
+/* // Style // */
+
+.nav{
+  padding-bottom: 10vh;
+}
+
+.title{
+  border-bottom: solid 2px black;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+/* Grid design for the main part */
+
+.list__apps{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.upper, .list__apps, .description{
+  margin-bottom: 15vh;
+}
+
+.middle{
+  margin-bottom: 50vh;
+}
+
+/* style for the div for portfoilo */
+
+p.list__app__source__and__description{
+  font-size: 1.5rem;
+}
+
+.list__apps__container{
+  margin: auto auto;
+  position: relative;
+}
+
+/* Style the div of the portfolio */
+
+.list__app{
+  border: 1px solid black;
+  border: none;
+  position: relative;
+  box-shadow: 0px 5px 10px 0px rgba(100, 100, 100, 0.5);
+}
+
+.list__app__photo{
+  background-position: center;
+  object-fit: cover;
+  box-shadow: 0px 5px 10px 0px rgba(100, 100, 100, 0.5);
+  margin-bottom: 30px;
+}
+
+/* add same style to both photo and the dive */
+
+.list__app, .list__app__photo{
+  width: 500px;
+  max-width: 500px;
+  height: 500px;
+  max-height: 500px;
+  border-radius: 5px;
+}
+
+/* create hovering design */
+
+img.list__app__photo:hover + .list__app__hover{
+  display: inline-block;
+  transition: 0.5s;
+}
+.list__app__hover:hover{
+  display: inline-block;
+}
+
+.list__app__hover{
+  position: absolute;
+  display: none;
+  top: -20px;
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(200, 200, 200, 0.5);
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+}
+
+/* create white texts withtn the element */
+
+.list__app__hover__texts{
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+}
+
+/* description title design */
+
+.list__app__source__and__description__title{
+  padding-left: 20px;
+  border-left: 2px solid black;
+}
+
+.description span{
+  display: inline-block;
+  text-align: justify;
+}
+
+/* link desgin */
+
+.list__app__source__and__description a{
+  text-decoration: none;
+  color: #A31621;
+}
+
+.list__app__source__and__description a:hover{
+  border-bottom: 2px solid black;
+}
+
+.copy__right{
+  border-top: solid 2px black;
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media (max-width: 1160px) {
+  .list__app, .list__app__photo{
+    width: 400px;
+    max-width: 400px;
+    height: 400px;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .list__app, .list__app__photo{
+    width: 380px;
+    max-width: 380px;
+    height: 380px;
+    max-height: 380px;
+  }
+}
+
+@media (max-width: 960px) {
+  .list__app, .list__app__photo{
+    width: 310px;
+    max-width: 310px;
+    height: 310px;
+    max-height: 310px;
+  }
+}
+
+@media (max-width: 720px) {
+  .list__app, .list__app__photo{
+    width: 450px;
+    max-width: 450px;
+    height: 450px;
+    max-height: 450px;
+  }
+  .list__apps{
+    grid-template-columns: 1fr;
+    grid-gap: 200px;
+  }
+}
