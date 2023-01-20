@@ -162,9 +162,25 @@ img.list__app__photo:hover + .list__app__hover{
 }
 
 .copy__right{
-  border-top: solid 2px black;
   width: 100%;
-  padding-top: 20px;
+}
+
+footer{
+  border-top: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__icons a{
+  margin-left: 10px;
+  color: black;
 }
 
 @media (max-width: 1160px) {
