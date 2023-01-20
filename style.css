@@ -147,7 +147,7 @@ img.list__app__photo:hover + .list__app__hover{
 
 .description span{
   display: inline-block;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 /* link desgin */
