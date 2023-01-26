@@ -162,11 +162,6 @@ img.list__app__photo:hover + .list__app__hover{
   border-left: 2px solid black;
 }
 
-.description span{
-  display: inline-block;
-  /* text-align: justify; */
-}
-
 /* link desgin */
 
 .list__app__source__and__description a{
@@ -180,6 +175,10 @@ img.list__app__photo:hover + .list__app__hover{
 
 .copy__right{
   width: 100%;
+}
+
+.description__bottom{
+  display: inline-block;
 }
 
 footer{
@@ -210,6 +209,9 @@ footer{
     max-width: 400px;
     height: 400px;
     max-height: 400px;
+  }
+  .hide__for__telephons{
+    display: none;
   }
 }
 
@@ -243,10 +245,6 @@ footer{
     height: 450px;
     max-height: 450px;
   }
-  .list__apps{
-    grid-template-columns: 1fr;
-    grid-gap: 300px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -258,6 +256,10 @@ footer{
   }
   .list__apps{
     grid-gap:300px;
+  }
+  .list__apps{
+    grid-template-columns: 1fr;
+    grid-gap: 300px;
   }
 }
 
