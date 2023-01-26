@@ -245,6 +245,10 @@ footer{
     height: 450px;
     max-height: 450px;
   }
+  .list__apps{
+    grid-template-columns: 1fr;
+    grid-gap: 300px;
+  }
 }
 
 @media (max-width: 480px) {
