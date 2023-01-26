@@ -45,6 +45,22 @@ span, div{
 /* // Style // */
 
 .nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+}
+
+/* .banner__img{
+  width: 480px;
+  height: 330px;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: grayscale(100%);
+} */
+
+.nav__left{
   padding-bottom: 10vh;
 }
 
@@ -213,6 +229,11 @@ footer{
     height: 310px;
     max-height: 310px;
   }
+  /* .nav{
+    flex-direction: column-reverse;
+    align-items: stretch;
+    margin-bottom: 120px;
+  } */
 }
 
 @media (max-width: 720px) {
