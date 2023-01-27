@@ -75,7 +75,8 @@ span, div{
 .list__apps{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-row-gap: 300px;
+  grid-column-gap: 50px;
 }
 
 .upper, .list__apps, .description{
