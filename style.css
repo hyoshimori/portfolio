@@ -265,6 +265,7 @@ footer{
   .list__apps{
     grid-template-columns: 1fr;
     grid-gap: 300px;
+    grid-row-gap: 380px;
   }
 }
 
