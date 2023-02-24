@@ -2,9 +2,11 @@
 /* https://coolors.co/a31621-bfdbf7-053c5e-1f7a8c-db222a */
 
 /* // Config // */
-
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@100;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@100;400&display=swap');
 html{
   font-size: 62.5%;
+  background-color: #F1F1EF;
 }
 
 body {
