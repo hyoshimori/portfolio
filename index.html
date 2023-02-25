@@ -13,8 +13,20 @@
 </head>
 <body>
   <div>
+    <div class="banner">
+      <div class="top__bar">
+        <i class="fa-solid fa-ellipsis ellipsis" id="ellipsis"></i>
+        <div class="burger" id="burger__menu">
+          <div class="header__icons">
+            <a href="https://github.com/hyoshimori" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hiroto-yoshimori/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:hiroto.y.129@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <img class="banner__photo" src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80" alt="">
-    <header class="nav">
+    <header class="nav__title">
       <h1>HIROTO YOSHIMORI DESIGN</h1>
     </header>
   </body>
@@ -23,12 +35,12 @@
       <h2 class="title">Bonjour</h2>
       <span>Front-end developer, who creates stylish applications.</span>
     </div>
+    <div class="description">
+      <h2 class="title">Attentions to details</h2>
+      <span>My name is Hiroto. I am originally from Japan and currently based in France. I have three years of experience working as a translator for a French start-up where I gained my interest in coding. <span class="hide__for__telephons">Through this experience, I have learned the importance of effectively conveying messages, both technically and in terms of social considerations. This approach has been a core philosophy that I apply when working in a team, particularly in the development of apps and translations.</span></span>
+      <span class="description__bottom">Now, I am looking for a Front-End developer role and also looking forward to seeing both you and your code.</span>
+    </div>
     <main>
-      <div class="description">
-        <h2 class="title">Attentions to details</h2>
-        <span>My name is Hiroto. I am originally from Japan and currently based in France. I have three years of experience working as a translator for a French start-up where I gained my interest in coding. <span class="hide__for__telephons">Through this experience, I have learned the importance of effectively conveying messages, both technically and in terms of social considerations. This approach has been a core philosophy that I apply when working in a team, particularly in the development of apps and translations.</span></span>
-        <span class="description__bottom">Now, I am looking for a Front-End developer role and also looking forward to seeing both you and your code.</span>
-      </div>
     </main>
       <div class="middle">
         <div class="list__apps">
@@ -49,7 +61,7 @@
             <a href="https://line-clone-43d2b.web.app/" class="list__app__hover">
               <strong class="list__app__hover__texts">LINE clone</strong>
             </a>
-            <p class="list__app__source__and__description list__app__source__and__description__title"><strong>LINE clone: Please log in to use this.</strong></p>
+            <p class="list__app__source__and__description list__app__source__and__description__title"><strong>LINE clone</strong></p>
             <div>
               <span class="list__app__source__and__description">Objective: <i>Play with firebase and chatroom</i></span></br>
               <span class="list__app__source__and__description">Used technologies: <i>React and Firebase</i></span></br>
@@ -91,5 +103,21 @@
       </div>
     </footer>
   </div>
+  <script>
+    const ellipsis = document.getElementById('ellipsis');
+    const burger = document.getElementById('burger__menu');
+
+    let counter = 0;
+
+    ellipsis.addEventListener('click', () => {
+      if(counter === 0){
+        burger.classList.add('burger__show');
+        counter += 1
+      } else {
+        burger.classList.remove('burger__show');
+        counter -= 1
+      }
+    });
+  </script>
 </body>
 </html>
