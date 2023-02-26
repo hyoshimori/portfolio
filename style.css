@@ -123,10 +123,10 @@ span, div{
 /* add same style to both photo and the dive */
 
 .list__app, .list__app__photo{
-  width: 500px;
-  max-width: 500px;
-  height: 500px;
-  max-height: 500px;
+  width: 480px;
+  max-width: 480px;
+  height: 480px;
+  max-height: 480px;
   border-radius: 5px;
 }
 
