@@ -1,15 +1,17 @@
 /* color link */
 /* https://coolors.co/a31621-bfdbf7-053c5e-1f7a8c-db222a */
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&family=Monoton&family=Montserrat&family=Quicksand&family=Roboto:wght@100;400&family=Source+Sans+Pro&family=Teko&display=swap');
+
 /* // Config // */
 
 html{
   font-size: 62.5%;
-  background-color: #EAEBEB;
+  background-color: white;
 }
 
 .body {
-  padding: 5vh 5% 0 5%;
+  padding: 0 5% 0 5%;
 }
 
 h1{
@@ -17,12 +19,12 @@ h1{
 }
 
 h1, h2, strong{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 h3, h4, a, p, span, li{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   line-height: 2;
 }
 
@@ -58,8 +60,8 @@ span, div{
   top: 40px;
   right: 30px;
   padding: 20px;
-  font-family: 'Quicksand', sans-serif;
-
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
 }
 
 .nav__left{
@@ -79,7 +81,7 @@ span, div{
 }
 
 .upper, .list__apps, .description{
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .middle{
@@ -212,6 +214,9 @@ footer{
   width: 100vw;
   height: 5vh;
   color: black;
+  position: absolute;
+  top: 0;
+  z-index: 200;
 }
 
 .ellipsis{
@@ -250,6 +255,16 @@ footer{
 .banner{
   position: relative;
 }
+
+/* .down__button{
+  position: absolute;
+  color: #4d090f;
+  opacity: 0.5;
+  font-size: 45px;
+  top: 70vh;
+  right: 15vw;
+  transition-duration: 1s;
+} */
 
 @media (max-width: 1160px) {
   .list__app, .list__app__photo{
@@ -296,6 +311,10 @@ footer{
   .list__apps{
     grid-template-columns: 1fr;
   }
+
+  /* .down__button{
+    display: none;
+  } */
 }
 
 @media (max-width: 480px) {
@@ -314,7 +333,7 @@ footer{
   }
 
   .banner__photo{
-    height: 60vh;
+    height: 72vh;
   }
 }
 
