@@ -333,7 +333,11 @@ footer{
   }
 
   .banner__photo{
-    height: 75vh;
+    height: 65vh;
+  }
+
+  .description{
+    margin-top: 10vh;
   }
 }
 
