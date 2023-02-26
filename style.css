@@ -51,6 +51,8 @@ span, div{
   object-fit: cover;
   object-position: left 90%;
   position: relative;
+  box-shadow: 0 1px 0 0 #cccccc;
+
 }
 
 /* // Style // */
