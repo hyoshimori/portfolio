@@ -84,6 +84,7 @@ span, div{
   grid-template-columns: 1fr 1fr;
 }
 
+
 .upper, .list__apps, .description{
   margin-top: 7vh;
 }
