@@ -50,9 +50,9 @@ span, div{
 
 .banner__photo{
   width: 100vw;
-  height: 85vh;
+  height: 75vh;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 65%;
   position: relative;
   /* box-shadow: 0 1px 0 0 #cccccc; */
 }
@@ -185,15 +185,12 @@ img.list__app__photo:hover + .list__app__hover{
   border-bottom: 2px solid black;
 }
 
-.copy__right{
-  width: 100%;
-}
-
 .description__bottom{
   display: inline-block;
 }
 
 footer{
+  margin: 0 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -328,7 +325,7 @@ footer{
   }
 
   .nav__title h1{
-    left: 0;
+    right: 0;
   }
 }
 
