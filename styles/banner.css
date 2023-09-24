@@ -1,0 +1,8 @@
+.banner__photo {
+  width: 100vw;
+  height: 75vh;
+  object-fit: cover;
+  object-position: 50% 65%;
+  position: relative;
+  margin-top: -8px;
+}

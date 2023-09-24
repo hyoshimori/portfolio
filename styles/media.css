@@ -1,0 +1,7 @@
+@media (min-width: 720px) {
+  .list__app,
+  .list__app__photo {
+    width: 850px;
+    height: 550px;
+  }
+}

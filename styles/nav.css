@@ -1,0 +1,7 @@
+.nav__title h1 {
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  padding: 20px;
+}

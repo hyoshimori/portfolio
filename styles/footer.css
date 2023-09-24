@@ -1,0 +1,15 @@
+footer {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__icons a {
+  margin-left: 10px;
+  color: black;
+}
+
+.footer__icons a:hover {
+  color: #4d090f;
+}
