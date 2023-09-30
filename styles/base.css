@@ -19,7 +19,8 @@ h2,
 strong {
   font-family: "Anton", sans-serif;
   color: black;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 h3,
